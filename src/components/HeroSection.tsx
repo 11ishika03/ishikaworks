@@ -15,7 +15,7 @@ export function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <div className="inline-block px-3 py-1 mb-6 rounded-full bg-secondary text-foreground/80 text-sm font-medium">
-              Full-Stack Developer
+              IT Student
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
@@ -23,7 +23,7 @@ export function HeroSection() {
             </h1>
             
             <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-lg">
-              Final-year IT student, full-stack developer, and problem solver passionate about technology and innovation.
+              Final-year IT student and problem solver passionate about technology and innovation.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -33,21 +33,6 @@ export function HeroSection() {
               <Link to="/contact" className="btn-outline">
                 Contact Me
               </Link>
-            </div>
-            
-            <div className="mt-12 grid grid-cols-3 gap-8">
-              <div>
-                <h3 className="text-3xl font-bold text-primary">280+</h3>
-                <p className="text-foreground/70">Google Reviews</p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold text-primary">15+</h3>
-                <p className="text-foreground/70">Projects Completed</p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold text-primary">5+</h3>
-                <p className="text-foreground/70">Awards Won</p>
-              </div>
             </div>
           </div>
           

@@ -6,6 +6,14 @@ import { Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Music Streaming App",
+      description: "A full-fledged music streaming web application built with the MERN stack. Features include user authentication, music library browsing with dynamic search, playlist creation, track management, and playback controls with visual cues and real-time updates. Focused on creating a user-centric experience with a clean UI and good performance.",
+      technologies: ["React.js", "Express.js", "MongoDB", "Node.js", "Redux"],
+      link: "https://github.com",
+      linkType: "GitHub",
+      icon: "🎵"
+    },
+    {
       title: "E-Commerce Fraud Detection",
       description: "A machine learning model that identifies fraudulent transactions in e-commerce platforms. Using Python, scikit-learn, and pandas, this project implements various classification algorithms to detect unusual patterns in transaction data.",
       technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
@@ -36,22 +44,6 @@ const Projects = () => {
       link: "https://github.com",
       linkType: "GitHub",
       icon: "💻"
-    },
-    {
-      title: "Weather Alert System",
-      description: "An automated weather monitoring and alert system that sends notifications about severe weather conditions via SMS and email using public weather APIs and Twilio services.",
-      technologies: ["Python", "Twilio API", "REST APIs", "Cron Jobs"],
-      link: "https://github.com",
-      linkType: "GitHub",
-      icon: "🌦️"
-    },
-    {
-      title: "Student Management System",
-      description: "A full-stack application for educational institutions to manage student records, attendance, grades, and communications with parents.",
-      technologies: ["MERN Stack", "JWT Authentication", "Redux", "MongoDB"],
-      link: "https://github.com",
-      linkType: "GitHub",
-      icon: "🧑‍🎓"
     }
   ];
 

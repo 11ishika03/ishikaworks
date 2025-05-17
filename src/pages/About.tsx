@@ -16,17 +16,8 @@ const About = () => {
             <div className="w-20 h-1 bg-primary mx-auto"></div>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <div className="rounded-2xl overflow-hidden">
-                <div className="aspect-[3/4] bg-gradient-to-br from-purple-400 to-purple-700 flex items-center justify-center text-white">
-                  {/* Replace with actual photo later */}
-                  <span className="text-4xl font-bold">Ishika Khandelwal</span>
-                </div>
-              </div>
-            </div>
-            
-            <div>
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-16">
               <p className="text-lg mb-6">
                 <span className="font-semibold text-primary">Final-year B.Tech Information Technology student</span> at Vellore Institute of Technology, graduating in May 2025, with a strong interest in software development, data analytics, and cyber security.
               </p>
@@ -46,9 +37,7 @@ const About = () => {
                 </Link>
               </div>
             </div>
-          </div>
-          
-          <div className="max-w-4xl mx-auto">
+            
             <h2 className="text-2xl font-bold mb-6">Education</h2>
             <div className="space-y-8">
               <div className="bg-card p-6 rounded-xl border border-border">
@@ -113,6 +102,6 @@ const About = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default About;

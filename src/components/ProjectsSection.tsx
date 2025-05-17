@@ -5,6 +5,13 @@ import { ArrowRight, Github } from "lucide-react";
 export function ProjectsSection() {
   const projects = [
     {
+      title: "Music Streaming App",
+      description: "A full-fledged music streaming web application built with the MERN stack featuring user authentication, music library browsing, playlist creation, and playback controls.",
+      link: "https://github.com",
+      linkText: "GitHub",
+      icon: "🎵"
+    },
+    {
       title: "E-Commerce Fraud Detection",
       description: "Machine learning model to detect fraudulent transactions in e-commerce platforms using Python, Scikit-learn, and Pandas.",
       link: "https://drive.google.com",

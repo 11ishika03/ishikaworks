@@ -47,7 +47,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h4 className="text-lg font-medium">Location</h4>
-                <p className="text-foreground/70">Vellore Institute of Technology</p>
+                <p className="text-foreground/70">Hyderabad, Telangana</p>
               </div>
             </div>
           </div>

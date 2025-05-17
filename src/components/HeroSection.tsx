@@ -39,12 +39,11 @@ export function HeroSection() {
           <div className="flex justify-center">
             <div className="relative animate-slide-up">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 p-2">
-                <div className="rounded-full overflow-hidden w-full h-full bg-gradient-to-br from-purple-500 to-purple-700">
-                  {/* Replace with actual profile picture */}
-                  <div className="w-full h-full bg-gradient-to-br from-purple-400 to-purple-700 flex items-center justify-center text-white">
-                    <span className="text-4xl font-bold">IK</span>
-                  </div>
-                </div>
+                <img 
+                  src="https://i.ibb.co/dj3GvX0/RkQyp3NH.jpg" 
+                  alt="Ishika Khandelwal" 
+                  className="rounded-full w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -z-10 w-64 h-64 md:w-80 md:h-80 rounded-full bg-primary/20 -bottom-3 -right-3"></div>
             </div>

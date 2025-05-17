@@ -27,10 +27,10 @@ export function HeroSection() {
             </p>
             
             <div className="flex flex-wrap gap-4">
-              <Link to="/projects" className="btn-primary flex items-center gap-2">
+              <Link to="/projects" className="btn-primary flex items-center gap-2 shadow-lg hover:shadow-primary/20 transition-all">
                 View Portfolio <ArrowRight size={18} />
               </Link>
-              <Link to="/contact" className="btn-outline">
+              <Link to="/contact" className="btn-outline shadow-lg hover:shadow-primary/20 transition-all">
                 Contact Me
               </Link>
             </div>
@@ -38,14 +38,14 @@ export function HeroSection() {
           
           <div className="flex justify-center">
             <div className="relative animate-slide-up">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 p-2">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 p-2 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
                 <img 
                   src="https://i.ibb.co/dj3GvX0/RkQyp3NH.jpg" 
                   alt="Ishika Khandelwal" 
                   className="rounded-full w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -z-10 w-64 h-64 md:w-80 md:h-80 rounded-full bg-primary/20 -bottom-3 -right-3"></div>
+              <div className="absolute -z-10 w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-primary to-purple-400 -bottom-3 -right-3 animate-pulse"></div>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export function ContactSection() {
   return (
-    <section className="section-padding bg-secondary/30 relative overflow-hidden">
+    <section className="section-padding bg-gradient-to-b from-secondary/30 to-background relative overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-50">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
@@ -12,18 +12,18 @@ export function ContactSection() {
       <div className="container-custom relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Contact Me</h2>
-          <div className="w-20 h-1 bg-primary mx-auto"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-400 mx-auto"></div>
         </div>
 
-        <div className="max-w-2xl mx-auto backdrop-blur-sm bg-card/30 rounded-xl p-8 border border-primary/10 shadow-lg">
-          <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
+        <div className="max-w-2xl mx-auto backdrop-blur-lg bg-card/30 rounded-xl p-8 border border-primary/10 shadow-xl hover:shadow-2xl transition-all duration-500">
+          <h3 className="text-2xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Get in Touch</h3>
           <p className="text-foreground/70 mb-8">
             Have a question or want to work together? Feel free to contact me!
           </p>
 
           <div className="space-y-8">
             <div className="flex items-start transform transition-all hover:translate-x-2">
-              <div className="mt-1 mr-4 p-3 bg-primary/10 rounded-full text-primary shadow-sm">
+              <div className="mt-1 mr-4 p-3 bg-gradient-to-br from-primary/20 to-purple-400/20 rounded-full text-primary shadow-lg">
                 <Mail size={20} />
               </div>
               <div>
@@ -35,7 +35,7 @@ export function ContactSection() {
             </div>
 
             <div className="flex items-start transform transition-all hover:translate-x-2">
-              <div className="mt-1 mr-4 p-3 bg-primary/10 rounded-full text-primary shadow-sm">
+              <div className="mt-1 mr-4 p-3 bg-gradient-to-br from-primary/20 to-purple-400/20 rounded-full text-primary shadow-lg">
                 <Phone size={20} />
               </div>
               <div>
@@ -47,7 +47,7 @@ export function ContactSection() {
             </div>
 
             <div className="flex items-start transform transition-all hover:translate-x-2">
-              <div className="mt-1 mr-4 p-3 bg-primary/10 rounded-full text-primary shadow-sm">
+              <div className="mt-1 mr-4 p-3 bg-gradient-to-br from-primary/20 to-purple-400/20 rounded-full text-primary shadow-lg">
                 <MapPin size={20} />
               </div>
               <div>

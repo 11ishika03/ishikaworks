@@ -35,10 +35,15 @@ export function ProjectsSection() {
   ];
 
   return (
-    <section className="section-padding bg-secondary/30">
-      <div className="container-custom">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>
+    <section className="section-padding bg-secondary/30 relative overflow-hidden">
+      <div className="absolute inset-0 z-0 opacity-30">
+        <div className="absolute -top-1/2 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-1/2 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+      </div>
+      
+      <div className="container-custom relative z-10">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
         
@@ -46,17 +51,17 @@ export function ProjectsSection() {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="bg-card rounded-xl overflow-hidden shadow-sm border border-border transition-transform hover:-translate-y-1 hover:shadow-md"
+              className="bg-card/80 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg border border-primary/10 transition-transform hover:-translate-y-2 hover:shadow-xl group"
             >
-              <div className="p-6">
-                <div className="text-4xl mb-4">{project.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-foreground/70 mb-4">{project.description}</p>
+              <div className="p-8">
+                <div className="text-5xl mb-6 transform transition-all group-hover:scale-110 group-hover:rotate-3">{project.icon}</div>
+                <h3 className="text-xl font-semibold mb-3 group-hover:text-primary transition-colors">{project.title}</h3>
+                <p className="text-foreground/70 mb-6">{project.description}</p>
                 <a 
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-primary hover:underline"
+                  className="inline-flex items-center text-primary border border-primary/20 px-4 py-2 rounded-full hover:bg-primary/10 transition-colors"
                 >
                   <Github size={18} className="mr-2" />
                   {project.linkText}
@@ -66,8 +71,11 @@ export function ProjectsSection() {
           ))}
         </div>
         
-        <div className="text-center mt-12">
-          <Link to="/projects" className="btn-primary inline-flex items-center">
+        <div className="text-center mt-16">
+          <Link 
+            to="/projects" 
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary to-purple-500 text-white rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+          >
             View All Projects <ArrowRight size={18} className="ml-2" />
           </Link>
         </div>

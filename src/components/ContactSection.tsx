@@ -5,8 +5,8 @@ export function ContactSection() {
   return (
     <section className="section-padding bg-gradient-to-b from-secondary/30 to-background relative overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-50">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-500/30 to-primary/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-primary/20 to-purple-500/30 rounded-full blur-3xl"></div>
       </div>
       
       <div className="container-custom relative z-10">
@@ -15,7 +15,7 @@ export function ContactSection() {
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-400 mx-auto"></div>
         </div>
 
-        <div className="max-w-2xl mx-auto backdrop-blur-lg bg-card/30 rounded-xl p-8 border border-primary/10 shadow-xl hover:shadow-2xl transition-all duration-500">
+        <div className="max-w-2xl mx-auto backdrop-blur-lg bg-card/30 rounded-xl p-8 border border-primary/10 shadow-xl hover:shadow-2xl hover:border-primary/30 transition-all duration-500">
           <h3 className="text-2xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Get in Touch</h3>
           <p className="text-foreground/70 mb-8">
             Have a question or want to work together? Feel free to contact me!

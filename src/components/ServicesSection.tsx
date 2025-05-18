@@ -39,8 +39,8 @@ export function ServicesSection() {
   return (
     <section className="section-padding bg-gradient-to-b from-background to-secondary/30 relative overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-30">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-500/30 to-primary/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-primary/20 to-purple-500/30 rounded-full blur-3xl"></div>
       </div>
       
       <div className="container-custom relative z-10">
@@ -53,7 +53,7 @@ export function ServicesSection() {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-card/60 backdrop-blur-lg rounded-xl p-8 shadow-xl border border-primary/10 hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-2 group"
+              className="bg-card/60 backdrop-blur-lg rounded-xl p-8 shadow-xl border border-primary/10 hover:border-primary/30 hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-2 group"
             >
               <div className="bg-gradient-to-br from-primary/10 to-purple-400/10 p-4 rounded-lg inline-block mb-6 transform transition-all group-hover:scale-110 group-hover:rotate-3 text-primary">
                 {service.icon}

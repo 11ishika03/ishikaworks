@@ -40,7 +40,7 @@ export function HeroSection() {
             <div className="relative animate-slide-up">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 p-2 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
                 <img 
-                  src="https://i.ibb.co/dj3GvX0/RkQyp3NH.jpg" 
+                  src="https://ik.imagekit.io/g7ydgimnp/photo.jpg?updatedAt=1747513189117" 
                   alt="Ishika Khandelwal" 
                   className="rounded-full w-full h-full object-cover"
                 />

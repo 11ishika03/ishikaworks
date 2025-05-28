@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { ArrowRight, Github } from "lucide-react";
+import { ArrowRight, Github, Figma } from "lucide-react";
 
 export function ProjectsSection() {
   const projects = [
@@ -9,6 +9,7 @@ export function ProjectsSection() {
       description: "A full-fledged music streaming web application built with the MERN stack featuring user authentication, music library browsing, playlist creation, and playback controls.",
       link: "https://github.com",
       linkText: "GitHub",
+      linkIcon: Github,
       icon: "🎵"
     },
     {
@@ -16,6 +17,7 @@ export function ProjectsSection() {
       description: "Machine learning model to detect fraudulent transactions in e-commerce platforms using Python, Scikit-learn, and Pandas.",
       link: "https://drive.google.com",
       linkText: "Google Drive",
+      linkIcon: Github,
       icon: "📊"
     },
     {
@@ -23,13 +25,23 @@ export function ProjectsSection() {
       description: "Regression model to predict house prices based on various features using Python, TensorFlow and data visualization tools.",
       link: "https://github.com",
       linkText: "GitHub",
+      linkIcon: Github,
       icon: "🏠"
+    },
+    {
+      title: "Financify– Finance App UI (Figma)",
+      description: "Designed a mobile-first personal finance app UI using Figma, focused on intuitive user experience and visual clarity. Created high-fidelity wireframes and interactive prototypes for features including expense tracking, budgeting, savings goals, and transaction history.",
+      link: "https://www.figma.com/proto/AckzWv2peW5F5iLh6AJZhg/Financify?node-id=79-40&t=GU4s9AfXJ4GsqrLn-6&starting-point-node-id=212%3A1",
+      linkText: "Figma Prototype",
+      linkIcon: Figma,
+      icon: "💰"
     },
     {
       title: "Intruder Insight: Honeypot Snapshot",
       description: "A cybersecurity tool that creates honeypots to analyze attack patterns and provide security insights using Python.",
       link: "https://github.com",
       linkText: "GitHub",
+      linkIcon: Github,
       icon: "🔒"
     }
   ];
@@ -63,7 +75,7 @@ export function ProjectsSection() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-primary border border-primary/20 px-4 py-2 rounded-full hover:bg-primary/10 transition-colors"
                 >
-                  <Github size={18} className="mr-2" />
+                  <project.linkIcon size={18} className="mr-2" />
                   {project.linkText}
                 </a>
               </div>

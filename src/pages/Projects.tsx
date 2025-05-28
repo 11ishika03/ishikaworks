@@ -1,7 +1,7 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Github } from "lucide-react";
+import { Github, Figma } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -11,6 +11,7 @@ const Projects = () => {
       technologies: ["React.js", "Express.js", "MongoDB", "Node.js", "Redux"],
       link: "https://github.com",
       linkType: "GitHub",
+      linkIcon: Github,
       icon: "🎵"
     },
     {
@@ -19,6 +20,7 @@ const Projects = () => {
       technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
       link: "https://drive.google.com",
       linkType: "Google Drive",
+      linkIcon: Github,
       icon: "📊"
     },
     {
@@ -27,7 +29,17 @@ const Projects = () => {
       technologies: ["Python", "TensorFlow", "Pandas", "Seaborn"],
       link: "https://github.com",
       linkType: "GitHub",
+      linkIcon: Github,
       icon: "🏠"
+    },
+    {
+      title: "Financify– Finance App UI (Figma)",
+      description: "Designed a mobile-first personal finance app UI using Figma, focused on intuitive user experience and visual clarity. Created high-fidelity wireframes and interactive prototypes for features including expense tracking, budgeting, savings goals, and transaction history. Applied principles of design thinking and user-centric design to streamline navigation and improve usability. Incorporated modern UI elements, consistent design system, and responsive layout for seamless cross-device adaptability.",
+      technologies: ["Figma", "UI/UX Design", "Prototyping", "Design Systems"],
+      link: "https://www.figma.com/proto/AckzWv2peW5F5iLh6AJZhg/Financify?node-id=79-40&t=GU4s9AfXJ4GsqrLn-6&starting-point-node-id=212%3A1",
+      linkType: "Figma Prototype",
+      linkIcon: Figma,
+      icon: "💰"
     },
     {
       title: "Intruder Insight: Honeypot Snapshot",
@@ -35,6 +47,7 @@ const Projects = () => {
       technologies: ["Python", "Network Security", "MongoDB", "Flask"],
       link: "https://github.com",
       linkType: "GitHub",
+      linkIcon: Github,
       icon: "🔒"
     },
     {
@@ -43,6 +56,7 @@ const Projects = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       link: "https://github.com",
       linkType: "GitHub",
+      linkIcon: Github,
       icon: "💻"
     }
   ];
@@ -89,7 +103,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-primary hover:underline"
                   >
-                    <Github size={18} className="mr-2" />
+                    <project.linkIcon size={18} className="mr-2" />
                     {project.linkType}
                   </a>
                 </div>

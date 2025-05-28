@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
@@ -35,7 +34,7 @@ export function AboutSection() {
                   <div className="mr-2">🎓</div>
                   <div>
                     <div className="font-medium">B.Tech – Vellore Institute of Technology (2025)</div>
-                    <div className="text-foreground/70">CGPA: 7.50</div>
+                    <div className="text-foreground/70">CGPA: 7.59</div>
                   </div>
                 </li>
                 <li className="flex p-3 bg-card/50 rounded-lg hover:bg-card/70 transition-all">

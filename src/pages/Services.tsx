@@ -18,6 +18,18 @@ const Services = () => {
       icon: "💻"
     },
     {
+      title: "UI/UX Design & Prototyping",
+      description: "Creating intuitive and visually appealing user interfaces with modern design principles and user-centered approach. I focus on delivering seamless user experiences across all platforms.",
+      features: [
+        "User research and persona development",
+        "Wireframing and high-fidelity mockups",
+        "Interactive prototyping with Figma",
+        "Design system creation",
+        "Responsive design for all devices"
+      ],
+      icon: "🎨"
+    },
+    {
       title: "Machine Learning Model Development",
       description: "Developing and training custom machine learning models for various use cases and domains. I create solutions for classification, regression, clustering, and more.",
       features: [

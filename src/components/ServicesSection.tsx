@@ -4,7 +4,8 @@ import {
   Database, 
   BarChart, 
   Cloud, 
-  Shield 
+  Shield,
+  Palette
 } from "lucide-react";
 
 export function ServicesSection() {
@@ -13,6 +14,11 @@ export function ServicesSection() {
       title: "Full-stack Web Development (MERN)",
       description: "Building responsive and dynamic web applications using MongoDB, Express.js, React, and Node.js.",
       icon: <Code className="w-8 h-8" />
+    },
+    {
+      title: "UI/UX Design & Prototyping",
+      description: "Creating intuitive and visually appealing user interfaces with modern design principles and user-centered approach.",
+      icon: <Palette className="w-8 h-8" />
     },
     {
       title: "Machine Learning Model Development",

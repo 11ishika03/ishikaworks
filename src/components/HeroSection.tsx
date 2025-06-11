@@ -1,6 +1,5 @@
 
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -10,8 +9,8 @@ export function HeroSection() {
       <div className="container-custom relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-medium mb-6 leading-tight text-foreground">
-              Hello, I'm <span className="block">Ishika.</span>
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-medium mb-6 leading-tight text-dark-brown">
+              Hello, I'm <span className="block">Ishika Khandelwal.</span>
             </h1>
             
             <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-lg leading-relaxed">
@@ -20,7 +19,7 @@ export function HeroSection() {
             
             <div className="flex flex-wrap gap-4">
               <Link to="/projects" className="btn-primary flex items-center gap-2 shadow-sm hover:shadow-md transition-all">
-                View Portfolio <ArrowRight size={18} />
+                View Portfolio
               </Link>
               <Link to="/contact" className="btn-outline shadow-sm hover:shadow-md transition-all">
                 Contact Me

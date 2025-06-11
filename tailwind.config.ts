@@ -67,6 +67,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
+				'dark-brown': 'hsl(var(--dark-brown))',
 				cream: {
 					50: '#fefcf8',
 					100: '#fdf8f1',

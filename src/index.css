@@ -16,7 +16,7 @@
     --popover: 40 25% 95%;
     --popover-foreground: 30 15% 15%;
 
-    --primary: 30 25% 25%;
+    --primary: 20 15% 25%;
     --primary-foreground: 40 20% 97%;
 
     --secondary: 35 30% 88%;
@@ -33,18 +33,20 @@
 
     --border: 35 20% 85%;
     --input: 35 20% 85%;
-    --ring: 30 25% 25%;
+    --ring: 20 15% 25%;
 
     --radius: 1rem;
 
     --sidebar-background: 40 25% 95%;
     --sidebar-foreground: 30 15% 15%;
-    --sidebar-primary: 30 25% 25%;
+    --sidebar-primary: 20 15% 25%;
     --sidebar-primary-foreground: 40 20% 97%;
     --sidebar-accent: 35 25% 85%;
     --sidebar-accent-foreground: 30 15% 15%;
     --sidebar-border: 35 20% 85%;
-    --sidebar-ring: 30 25% 25%;
+    --sidebar-ring: 20 15% 25%;
+
+    --dark-brown: 20 15% 25%;
   }
 
   .dark {
@@ -84,6 +86,8 @@
     --sidebar-accent-foreground: 40 20% 95%;
     --sidebar-border: 30 10% 20%;
     --sidebar-ring: 40 30% 85%;
+
+    --dark-brown: 25 30% 20%;
   }
 }
 
@@ -97,7 +101,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading font-medium;
+    @apply font-heading font-medium text-dark-brown;
   }
 
   .section-padding {

@@ -43,29 +43,24 @@ export function ServicesSection() {
   ];
 
   return (
-    <section className="section-padding bg-gradient-to-b from-background to-secondary/30 relative overflow-hidden">
-      <div className="absolute inset-0 z-0 opacity-30">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-500/30 to-primary/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-primary/20 to-purple-500/30 rounded-full blur-3xl"></div>
-      </div>
-      
+    <section className="section-padding bg-cream-50 dark:bg-secondary/30 relative overflow-hidden">
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Services</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-400 mx-auto"></div>
+          <h2 className="text-4xl md:text-5xl font-heading font-medium mb-4 text-foreground">Services</h2>
+          <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-card/60 backdrop-blur-lg rounded-xl p-8 shadow-xl border border-primary/10 hover:border-primary/30 hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-2 group"
+              className="bg-card rounded-2xl p-8 shadow-sm border border-border hover:shadow-md transition-all duration-300 hover:-translate-y-1 group"
             >
-              <div className="bg-gradient-to-br from-primary/10 to-purple-400/10 p-4 rounded-lg inline-block mb-6 transform transition-all group-hover:scale-110 group-hover:rotate-3 text-primary">
+              <div className="bg-secondary/50 p-4 rounded-xl inline-block mb-6 transform transition-all group-hover:scale-110 text-primary">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-foreground group-hover:text-primary transition-colors">{service.title}</h3>
-              <p className="text-foreground/70">{service.description}</p>
+              <h3 className="text-xl font-heading font-medium mb-4 text-foreground group-hover:text-primary transition-colors">{service.title}</h3>
+              <p className="text-foreground/70 leading-relaxed">{service.description}</p>
             </div>
           ))}
         </div>

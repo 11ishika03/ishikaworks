@@ -86,9 +86,9 @@ const Services = () => {
       <div className="pt-28 pb-16">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Services</h1>
-            <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
-            <p className="max-w-2xl mx-auto text-foreground/70">
+            <h1 className="text-4xl md:text-5xl font-heading font-medium mb-4">Services</h1>
+            <div className="w-20 h-1 bg-primary mx-auto mb-4 rounded-full"></div>
+            <p className="max-w-2xl mx-auto text-foreground/70 leading-relaxed">
               I offer a range of technical services to help businesses and individuals achieve their goals.
             </p>
           </div>
@@ -97,12 +97,12 @@ const Services = () => {
             {services.map((service, index) => (
               <div 
                 key={index}
-                className="bg-card rounded-xl overflow-hidden shadow-sm border border-border transition-all hover:-translate-y-1 hover:shadow-md"
+                className="bg-card rounded-2xl overflow-hidden shadow-sm border border-border transition-all hover:-translate-y-1 hover:shadow-md"
               >
                 <div className="p-6 md:p-8">
                   <div className="text-4xl mb-4">{service.icon}</div>
-                  <h3 className="text-2xl font-semibold mb-3">{service.title}</h3>
-                  <p className="text-foreground/80 mb-6">{service.description}</p>
+                  <h3 className="text-2xl font-heading font-medium mb-3">{service.title}</h3>
+                  <p className="text-foreground/80 mb-6 leading-relaxed">{service.description}</p>
                   
                   <h4 className="text-lg font-medium mb-3">What's Included:</h4>
                   <ul className="space-y-2 mb-6">
@@ -119,8 +119,8 @@ const Services = () => {
           </div>
           
           <div className="mt-16 text-center">
-            <h2 className="text-2xl font-bold mb-6">Ready to Work Together?</h2>
-            <p className="max-w-2xl mx-auto text-foreground/80 mb-8">
+            <h2 className="text-3xl font-heading font-medium mb-6">Ready to Work Together?</h2>
+            <p className="max-w-2xl mx-auto text-foreground/80 mb-8 leading-relaxed">
               If you're interested in any of my services or would like to discuss a custom project, feel free to get in touch.
             </p>
             <Link to="/contact" className="btn-primary inline-block">

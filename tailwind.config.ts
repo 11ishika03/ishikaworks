@@ -21,7 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
-				heading: ['Poppins', 'sans-serif'],
+				heading: ['Playfair Display', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -67,18 +67,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				purple: {
-					50: '#f5f3ff',
-					100: '#ede9fe',
-					200: '#ddd6fe',
-					300: '#c4b5fd',
-					400: '#a78bfa',
-					500: '#8b5cf6',
-					600: '#7c3aed',
-					700: '#6d28d9',
-					800: '#5b21b6',
-					900: '#4c1d95',
-					950: '#2e1065',
+				cream: {
+					50: '#fefcf8',
+					100: '#fdf8f1',
+					200: '#f9ede1',
+					300: '#f4dfc8',
+					400: '#edcba5',
+					500: '#e4b37e',
+					600: '#d89958',
+					700: '#c17d3c',
+					800: '#9e6430',
+					900: '#7f4f29',
+					950: '#452a15',
 				},
 			},
 			borderRadius: {
@@ -115,11 +115,6 @@ export default {
 				'slide-up': 'slideUp 0.5s ease-out forwards',
 				'slide-right': 'slideRight 0.5s ease-out forwards',
 			},
-			backgroundImage: {
-				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'hero-pattern': 'linear-gradient(to right bottom, rgba(36, 36, 59, 0.95), rgba(20, 20, 35, 0.95))',
-				'hero-light': 'linear-gradient(to right bottom, rgba(236, 233, 250, 0.95), rgba(255, 255, 255, 0.95))',
-			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

@@ -1,7 +1,7 @@
 
 export function ExperienceSection() {
   return (
-    <section className="section-padding bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary relative overflow-hidden">
+    <section className="section-padding relative overflow-hidden">
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-medium mb-4 text-dark-brown">Experience</h2>

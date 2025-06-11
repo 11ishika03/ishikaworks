@@ -20,7 +20,7 @@ export function SkillsSection() {
   ];
 
   return (
-    <section className="section-padding bg-secondary/30 relative overflow-hidden">
+    <section className="section-padding relative overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-30">
         <div className="absolute -top-1/2 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-1/2 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>

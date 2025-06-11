@@ -1,9 +1,8 @@
-
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export function ContactSection() {
   return (
-    <section className="section-padding bg-gradient-to-b from-secondary/30 to-background relative overflow-hidden">
+    <section className="section-padding relative overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-50">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-500/30 to-primary/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-br from-primary/20 to-purple-500/30 rounded-full blur-3xl"></div>

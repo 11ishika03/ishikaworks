@@ -18,9 +18,6 @@ export function HeroSection() {
             </p>
             
             <div className="flex flex-wrap gap-4">
-              <Link to="/projects" className="btn-primary flex items-center gap-2 shadow-sm hover:shadow-md transition-all">
-                View Portfolio
-              </Link>
               <Link to="/contact" className="btn-outline shadow-sm hover:shadow-md transition-all">
                 Contact Me
               </Link>

@@ -1,4 +1,3 @@
-
 export function SkillsSection() {
   const skills = [
     {
@@ -28,8 +27,8 @@ export function SkillsSection() {
       
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">My Skills</h2>
-          <div className="w-20 h-1 bg-primary mx-auto"></div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark-brown">My Skills</h2>
+          <div className="w-20 h-1 bg-dark-brown mx-auto"></div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

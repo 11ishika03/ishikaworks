@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
@@ -11,8 +12,8 @@ export function AboutSection() {
       
       <div className="container-custom relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">About Me</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-400 mx-auto"></div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark-brown">About Me</h2>
+          <div className="w-20 h-1 bg-dark-brown mx-auto"></div>
         </div>
         
         <div className="max-w-3xl mx-auto backdrop-blur-sm bg-card/30 p-8 rounded-2xl border border-primary/10 shadow-xl">

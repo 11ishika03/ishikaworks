@@ -1,3 +1,4 @@
+
 import { Mail, MapPin, Phone } from "lucide-react";
 
 export function ContactSection() {
@@ -10,8 +11,8 @@ export function ContactSection() {
       
       <div className="container-custom relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400">Contact Me</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-400 mx-auto"></div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-dark-brown">Contact Me</h2>
+          <div className="w-20 h-1 bg-dark-brown mx-auto"></div>
         </div>
 
         <div className="max-w-2xl mx-auto backdrop-blur-lg bg-card/30 rounded-xl p-8 border border-primary/10 shadow-xl hover:shadow-2xl hover:border-primary/30 transition-all duration-500">

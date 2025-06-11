@@ -39,11 +39,11 @@ const Index = () => {
       
       <HeroSection />
       
-      <div className="reveal bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
+      <div className="reveal">
         <AboutSection />
       </div>
       
-      <div className="reveal bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
+      <div className="reveal">
         <SkillsSection />
       </div>
       
@@ -51,19 +51,19 @@ const Index = () => {
         <ExperienceSection />
       </div>
       
-      <div className="reveal bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
+      <div className="reveal">
         <ProjectsSection />
       </div>
       
-      <div className="reveal bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
+      <div className="reveal">
         <ServicesSection />
       </div>
       
-      <div className="reveal bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
+      <div className="reveal">
         <AchievementsSection />
       </div>
       
-      <div className="reveal bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
+      <div className="reveal">
         <ContactSection />
       </div>
       

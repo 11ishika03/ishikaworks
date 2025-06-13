@@ -1,8 +1,6 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -27,15 +25,6 @@ const About = () => {
               <p className="text-lg mb-6">
                 Eager to grow, take on challenges, and make meaningful contributions to the tech industry.
               </p>
-              
-              <div className="flex flex-wrap gap-4 mt-8">
-                <Link to="/contact" className="btn-primary flex items-center gap-2">
-                  Contact Me <ArrowRight size={18} />
-                </Link>
-                <Link to="/projects" className="btn-outline">
-                  View Projects
-                </Link>
-              </div>
             </div>
             
             <h2 className="text-2xl font-bold mb-6">Education</h2>

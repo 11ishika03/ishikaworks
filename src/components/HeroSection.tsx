@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 export function HeroSection() {
   return (
     <section className="pt-32 pb-20 min-h-screen flex items-center relative overflow-hidden">
-      <div className="absolute inset-0 z-0 bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary"></div>
-      
       <div className="container-custom relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">

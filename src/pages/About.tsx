@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArrowRight } from "lucide-react";
@@ -5,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-br from-cream-100 to-cream-200 dark:from-background dark:to-secondary">
       <Navbar />
       
       <div className="pt-28 pb-16">

@@ -50,7 +50,7 @@ export function ProjectsSection() {
     <section className="section-padding relative overflow-hidden">
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-medium mb-4 text-foreground">Projects</h2>
+          <h2 className="text-4xl md:text-5xl font-heading font-medium mb-4 text-dark-brown">Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
         </div>
         

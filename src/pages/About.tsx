@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -35,7 +34,7 @@ const About = () => {
                   <span className="text-primary font-medium">2021 - 2025</span>
                 </div>
                 <p className="text-foreground/70">Vellore Institute of Technology</p>
-                <p className="mt-2 font-medium">CGPA: 7.59</p>
+                <p className="mt-2 font-medium">CGPA: 7.64</p>
               </div>
               
               <div className="bg-card p-6 rounded-xl border border-border">
